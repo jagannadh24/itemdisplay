@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits and Vegetables Home</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Custom Styles -->
+    <style>
+        /* Full-page background image */
+        body {
+            background-image: url('DALL·E 2024-11-07 10.05.37 - A high-resolution, vibrant background image featuring a variety of fresh fruits and vegetables, arranged attractively on a rustic wooden table. The fr.webp'); /* Replace with a suitable image URL */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #fff; /* White text color for readability */
+        }
+
+        /* Transparent overlay for content readability */
+        .content-overlay {
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark overlay */
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+        /* Button styling */
+        .nav-button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        /* Center main content */
+        .main-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar with Bootstrap buttons -->
+    <div style="position: absolute; top: 20px; right: 20px;">
+        <a href="/fruits">
+            <button class="btn btn-primary nav-button">Fruits</button>
+        </a>
+        <a href="/vegetables">
+            <button class="btn btn-success nav-button">Vegetables</button>
+        </a>
+    </div>
+
+    <!-- Home Page Content with Overlay -->
+    <div class="main-content">
+        <div class="content-overlay">
+            <h1>Welcome to the Fruits and Vegetables Store!</h1>
+            <p>Explore our fresh collection of fruits and vegetables. Click on the buttons above to browse.</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
